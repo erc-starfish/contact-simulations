@@ -1,0 +1,20 @@
+{
+  "parfile": "parameters/generated/optimized_APS_5.json",
+  "sysinfo": {
+    "cpu_model": "13th Gen Intel(R) Core(TM) i5-13600KF",
+    "julia_version": "1.11.4",
+    "CPU_NAME": "alderlake",
+    "total_memory": 128634,
+    "MACHINE": "x86_64-linux-gnu",
+    "hostname": "n100",
+    "CPU_THREADS": 20
+  },
+  "metafile": "../meta/sweep_APS_abc_5_meta.json",
+  "outfile": "../output/sweep_APS_abc_5.csv",
+  "runtime": "3 minutes, 8 seconds, 910 milliseconds",
+  "launched": "2026-08-25T02:34:32.246",
+  "nworkers": 10,
+  "description": "APS sweep with optimized demographic parameters, ABC",
+  "runtime_milliseconds": 188910,
+  "finished": "2026-08-25T02:37:41.156"
+}

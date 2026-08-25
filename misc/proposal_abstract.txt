@@ -1,0 +1,30 @@
+This chapter presents a framework for the mathematical and 
+computational modelling of morphosyntactic simplification
+processes at both the individual and the population level. The central question that
+will be asked is: what proportion of second-language (L2) 
+learners must be present in a speech community for simplification
+to occur, in the sense that over repeated speaker-to-speaker
+interactions the morphosyntactically complex variant is lost
+altogether? To answer this question, a model of language
+change in structured populations is proposed, building on
+foundational work in the variational learning paradigm.
+The existence of a bifurcation in this model -- between a
+phase in which simplification is impossible and a phase in
+which simplification is necessary -- is discussed using
+analytical mathematical arguments which employ a number
+of simplifying assumptions. From here, we proceed to drop
+the simplifying assumptions one by one, implementing the
+model as an agent-based simulation. This allows the modelling
+of increasingly complex properties of language learning and
+population dynamics, such as age-dependent decaying learning
+rates, irregular interaction networks, finite populations,
+and inter-individual differences in the acquisition of
+morphosyntactically complex material. This increased realism
+allows us to ask to what extent the analytically derived
+bifurcation threshold retains its validity as the complexity
+of real-world language acquisition and linguistic interaction
+is approached. The chapter also discusses concerns of
+technical implementation detail, focusing on the best
+programming practices to adopt in order to ensure performant
+agent-based simulations, and introducing a purpose-built
+software package, LearningAutomata.jl, in the process.

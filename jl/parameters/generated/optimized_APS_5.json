@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "metafile": "../meta/sweep_APS_abc_5_meta.json",
+    "outfile": "../output/sweep_APS_abc_5.csv",
+    "description": "APS sweep with optimized demographic parameters, ABC"
+  },
+  "parameters": {
+    "min_importtime": {
+      "val": 38,
+      "type": "Int"
+    },
+    "a2": {
+      "val": 0.05,
+      "type": "Float64"
+    },
+    "a1": {
+      "val": 0.7,
+      "type": "Float64"
+    },
+    "weibull_scale": {
+      "val": 28.82938362300024,
+      "type": "Float64"
+    },
+    "immig_shape": {
+      "val": 5.045377628934243,
+      "type": "Float64"
+    },
+    "birthrate": {
+      "val": 0.04229291814993521,
+      "type": "Float64"
+    },
+    "friend_cap": {
+      "val": 50,
+      "type": "Int"
+    },
+    "sigma": {
+      "val": 0.8314575156079143,
+      "type": "Float64"
+    },
+    "acquire_language": {
+      "val": true,
+      "type": "Bool"
+    },
+    "when": {
+      "val": 1,
+      "type": "Int"
+    },
+    "catchment": {
+      "val": 10,
+      "type": "Int"
+    },
+    "importperiod": {
+      "val": 231,
+      "type": "Int"
+    },
+    "n_seed": {
+      "val": 529,
+      "type": "Int"
+    },
+    "d": {
+      "val": [
+        0.1,
+        1.0,
+        100.0
+      ],
+      "type": "Float64"
+    },
+    "weibull_shape": {
+      "val": 4.5861431881425245,
+      "type": "Float64"
+    },
+    "iter": {
+      "val": 500,
+      "type": "Int"
+    },
+    "immig_scale": {
+      "val": 4.476689341159025,
+      "type": "Float64"
+    },
+    "γ": {
+      "val": 0.005,
+      "type": "Float64"
+    },
+    "aspectratio": {
+      "val": 1.0,
+      "type": "Float64"
+    },
+    "carcap": {
+      "val": 50004,
+      "type": "Int"
+    },
+    "dim": {
+      "val": 5000,
+      "type": "Int"
+    },
+    "seed": {
+      "max": 5,
+      "min": 1,
+      "len": 5,
+      "type": "Int"
+    }
+  }
+}

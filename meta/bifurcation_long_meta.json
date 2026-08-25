@@ -1,0 +1,20 @@
+{
+  "parfile": "parameters/bifurcation_long.json",
+  "sysinfo": {
+    "cpu_model": "13th Gen Intel(R) Core(TM) i5-13600KF",
+    "julia_version": "1.11.4",
+    "CPU_NAME": "alderlake",
+    "total_memory": 128634,
+    "MACHINE": "x86_64-linux-gnu",
+    "hostname": "n100",
+    "CPU_THREADS": 20
+  },
+  "metafile": "../meta/bifurcation_long_meta.json",
+  "outfile": "../output/bifurcation_long.csv",
+  "runtime": "11 hours, 48 minutes, 48 seconds, 255 milliseconds",
+  "launched": "2026-08-25T03:01:45.148",
+  "nworkers": 10,
+  "description": "Sweep to explore whether the deterministic-limit bifurcation threshold holds up. Long version, i.e. long maximum time.",
+  "runtime_milliseconds": 42528255,
+  "finished": "2026-08-25T14:50:33.403"
+}

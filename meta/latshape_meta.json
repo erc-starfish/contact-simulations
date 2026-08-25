@@ -1,0 +1,20 @@
+{
+  "parfile": "parameters/latshape.json",
+  "sysinfo": {
+    "cpu_model": "13th Gen Intel(R) Core(TM) i5-13600KF",
+    "julia_version": "1.11.4",
+    "CPU_NAME": "alderlake",
+    "total_memory": 128634,
+    "MACHINE": "x86_64-linux-gnu",
+    "hostname": "n100",
+    "CPU_THREADS": 20
+  },
+  "metafile": "../meta/latshape_meta.json",
+  "outfile": "../output/latshape.csv",
+  "runtime": "3 hours, 22 minutes, 11 seconds, 969 milliseconds",
+  "launched": "2026-08-25T14:50:51.949",
+  "nworkers": 10,
+  "description": "Sweep to explore the effects of lattice shape (aspect ratio) and the length of L2 learning (T_L2)",
+  "runtime_milliseconds": 12131969,
+  "finished": "2026-08-25T18:13:03.918"
+}

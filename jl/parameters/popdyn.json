@@ -1,0 +1,97 @@
+{
+  "meta" : {
+    "description" : "Used as a template for the optimization of demographic parameters.",
+    "outfile" : "../output/popdyn.csv",
+    "metafile" : "../meta/popdyn_meta.json"
+  },
+  "parameters" : {
+    "seed" : {
+      "type" : "Int",
+      "val" : 1
+    },
+    "acquire_language" : {
+      "type" : "Bool",
+      "val" : false
+    },
+    "a1" : {
+      "type" : "Float64",
+      "val" : 0.1
+    },
+    "a2" : {
+      "type" : "Float64",
+      "val" : 0.1
+    },
+    "γ" : {
+      "type" : "Float64",
+      "val" : 0.01
+    },
+    "d" : {
+      "type" : "Float64",
+      "val" : 0
+    },
+    "aspectratio" : {
+      "type" : "Float64",
+      "val" : 1.0
+    },
+    "dim" : {
+      "type" : "Int",
+      "val" : 5000
+    },
+    "catchment" : {
+      "type" : "Int",
+      "val" : 10
+    },
+    "birthrate" : {
+      "type" : "Float64",
+      "val" : 0.01
+    },
+    "sigma" : {
+      "type" : "Float64",
+      "val" : 0.7
+    },
+    "min_importtime" : {
+      "type" : "Int",
+      "val" : 500
+    },
+    "importperiod" : {
+      "type" : "Int",
+      "val" : 4000
+    },
+    "immig_shape" : {
+      "type" : "Float64",
+      "val" : 6.0
+    },
+    "immig_scale" : {
+      "type" : "Float64",
+      "val" : 5.0
+    },
+    "friend_cap" : {
+      "type" : "Int",
+      "val" : 50
+    },
+    "n_seed" : {
+      "type" : "Int",
+      "val" : 100
+    },
+    "weibull_shape" : {
+      "type" : "Float64",
+      "val" : 10.0
+    },
+    "weibull_scale" : {
+      "type" : "Float64",
+      "val" : 1000.0
+    },
+    "carcap" : {
+      "type" : "Int",
+      "val" : 1000
+    },
+    "iter" : {
+      "type" : "Int",
+      "val" : 200
+    },
+    "when" : {
+      "type" : "Int",
+      "val" : 10
+    }
+  }
+}

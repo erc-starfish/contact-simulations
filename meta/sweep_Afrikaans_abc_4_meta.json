@@ -1,0 +1,20 @@
+{
+  "parfile": "parameters/generated/optimized_Afrikaans_4.json",
+  "sysinfo": {
+    "cpu_model": "13th Gen Intel(R) Core(TM) i5-13600KF",
+    "julia_version": "1.11.4",
+    "CPU_NAME": "alderlake",
+    "total_memory": 128634,
+    "MACHINE": "x86_64-linux-gnu",
+    "hostname": "n100",
+    "CPU_THREADS": 20
+  },
+  "metafile": "../meta/sweep_Afrikaans_abc_4_meta.json",
+  "outfile": "../output/sweep_Afrikaans_abc_4.csv",
+  "runtime": "1 minute, 7 seconds, 174 milliseconds",
+  "launched": "2026-08-25T02:53:07.080",
+  "nworkers": 10,
+  "description": "Afrikaans sweep with optimized demographic parameters, ABC",
+  "runtime_milliseconds": 67174,
+  "finished": "2026-08-25T02:54:14.254"
+}

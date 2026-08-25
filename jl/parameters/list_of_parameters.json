@@ -1,0 +1,141 @@
+{
+  "meta" : {
+    "description" : "list of all parameters, with default values",
+    "default_order" : [
+      "a1",
+      "a2",
+      "γ",
+      "d",
+      "aspectratio",
+      "dim",
+      "catchment",
+      "friend_cap",
+      "birthrate",
+      "sigma",
+      "importperiod",
+      "immig_shape",
+      "immig_scale",
+      "n_seed",
+      "weibull_shape",
+      "weibull_scale",
+      "carcap",
+      "iter"
+    ]
+  },
+  "parameters" : {
+    "a1" : {
+      "description" : "Advantage of grammar $G_1$",
+      "type" : "String",
+      "val" : "various",
+      "symbol" : "$a_1$"
+    },
+    "a2" : {
+      "description" : "Advantage of grammar $G_2$",
+      "type" : "String",
+      "val" : "various",
+      "symbol" : "$a_2$"
+    },
+    "γ" : {
+      "description" : "Learning rate",
+      "type" : "String",
+      "val" : "various",
+      "symbol" : "$\\gamma$"
+    },
+    "d" : {
+      "description" : "L2-difficulty of $G_1$",
+      "type" : "String",
+      "val" : "various",
+      "symbol" : "$d$"
+    },
+    "aspectratio" : {
+      "description" : "Lattice aspect ratio",
+      "type" : "String",
+      "val" : "various",
+      "symbol" : "$\\rho$"
+    },
+    "dim" : {
+      "description" : "Approximate lattice size (number of sites)",
+      "type" : "String",
+      "symbol" : "$L$",
+      "val" : 5000
+    },
+    "catchment" : {
+      "description" : "Interaction radius",
+      "type" : "String",
+      "symbol" : "$R$",
+      "val" : 10
+    },
+    "birthrate" : {
+      "description" : "Birth rate",
+      "type" : "String",
+      "val" : 0.05,
+      "symbol" : "$b$"
+    },
+    "sigma" : {
+      "description" : "Expected proportion of L2 learners",
+      "type" : "String",
+      "val" : "various",
+      "symbol" : "$\\textnormal{E}[\\sigma]$"
+    },
+    "min_importtime" : {
+      "description" : "Language contact start time",
+      "type" : "String",
+      "val" : 50,
+      "symbol" : "$T_\\textnormal{L2}^0$"
+    },
+    "importperiod" : {
+      "description" : "Length of immigration period",
+      "type" : "String",
+      "val" : "various",
+      "symbol" : "$T_\\textnormal{L2}$"
+    },
+    "immig_shape" : {
+      "description" : "Shape of immigration age distribution",
+      "type" : "String",
+      "symbol" : "$\\phi$",
+      "val" : 6.0
+    },
+    "immig_scale" : {
+      "description" : "Scale of immigration age distribution",
+      "type" : "String",
+      "symbol" : "$\\theta$",
+      "val" : 5.0
+    },
+    "friend_cap" : {
+      "description" : "Maximum interaction density (number of contacts)",
+      "type" : "String",
+      "symbol" : "$F$",
+      "val" : 50
+    },
+    "n_seed" : {
+      "description" : "Number of L1 speakers at time 0",
+      "type" : "String",
+      "symbol" : "$N_0$",
+      "val" : 100
+    },
+    "weibull_shape" : {
+      "description" : "Shape parameter of death distribution",
+      "type" : "String",
+      "symbol" : "$k$",
+      "val" : 10.0
+    },
+    "weibull_scale" : {
+      "description" : "Scale parameter of death distribution",
+      "type" : "String",
+      "symbol" : "$\\lambda$",
+      "val" : 70.0
+    },
+    "carcap" : {
+      "description" : "Population carrying capacity",
+      "type" : "String",
+      "val" : "various",
+      "symbol" : "$K$"
+    },
+    "iter" : {
+      "description" : "Length of simulation",
+      "type" : "String",
+      "val" : "various",
+      "symbol" : "$T$"
+    }
+  }
+}

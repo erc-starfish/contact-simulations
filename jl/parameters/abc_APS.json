@@ -1,0 +1,7 @@
+{
+  "epsilon" : 1000,
+  "alpha" : 0.95,
+  "nsims_max" : 100000,
+  "nparticles" : 100,
+  "facc_min" : 0.15
+}

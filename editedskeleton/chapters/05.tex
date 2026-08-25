@@ -1,0 +1,27 @@
+\documentclass[output=paper,colorlinks,citecolor=brown]{langscibook}
+\title{Responsive features, the learner, and the population}
+%\title{Responsive features, the learner, and the population: efficient simulation of language contact dynamics}
+%\shorttitlerunninghead{Responsive features, the learner, and the population}
+\author{Henri Kauhanen\orcid{}\affiliation{University of Zurich}}
+
+\abstract{\input{chapters/05-abs.tex}}
+
+
+\IfFileExists{../localcommands.tex}{
+   \addbibresource{../localbibliography.bib}
+   \addbibresource{chapters/05-bib.bib}
+   \input{../localpackages}
+   \input{../localcommands}
+   \input{../localhyphenation}
+   \boolfalse{bookcompile}
+   \togglepaper[5]%%chapternumber
+}{}
+
+\begin{document}
+\maketitle
+\label{ch:henri}
+
+\input{chapters/05-content.tex}
+
+{\sloppy\printbibliography[heading=subbibliography,notkeyword=this]}
+\end{document}

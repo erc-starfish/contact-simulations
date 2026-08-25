@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "metafile": "../meta/sweep_Afrikaans_abc_3_meta.json",
+    "outfile": "../output/sweep_Afrikaans_abc_3.csv",
+    "description": "Afrikaans sweep with optimized demographic parameters, ABC"
+  },
+  "parameters": {
+    "min_importtime": {
+      "val": 67,
+      "type": "Int"
+    },
+    "a2": {
+      "val": 1.0,
+      "type": "Float64"
+    },
+    "a1": {
+      "val": 1.0,
+      "type": "Float64"
+    },
+    "weibull_scale": {
+      "val": 96.71231216763965,
+      "type": "Float64"
+    },
+    "immig_shape": {
+      "val": 4.928382253144927,
+      "type": "Float64"
+    },
+    "birthrate": {
+      "val": 0.022206132640653815,
+      "type": "Float64"
+    },
+    "friend_cap": {
+      "val": 50,
+      "type": "Int"
+    },
+    "sigma": {
+      "val": 0.6785329038559934,
+      "type": "Float64"
+    },
+    "acquire_language": {
+      "val": true,
+      "type": "Bool"
+    },
+    "when": {
+      "val": 1,
+      "type": "Int"
+    },
+    "catchment": {
+      "val": 10,
+      "type": "Int"
+    },
+    "importperiod": {
+      "val": 259,
+      "type": "Int"
+    },
+    "n_seed": {
+      "val": 501,
+      "type": "Int"
+    },
+    "d": {
+      "val": [
+        0.1,
+        1.0,
+        100.0
+      ],
+      "type": "Float64"
+    },
+    "weibull_shape": {
+      "val": 4.9145720873430205,
+      "type": "Float64"
+    },
+    "iter": {
+      "val": 500,
+      "type": "Int"
+    },
+    "immig_scale": {
+      "val": 4.171648525450364,
+      "type": "Float64"
+    },
+    "γ": {
+      "val": 0.005,
+      "type": "Float64"
+    },
+    "aspectratio": {
+      "val": 1.0,
+      "type": "Float64"
+    },
+    "carcap": {
+      "val": 50313,
+      "type": "Int"
+    },
+    "dim": {
+      "val": 5000,
+      "type": "Int"
+    },
+    "seed": {
+      "max": 5,
+      "min": 1,
+      "len": 5,
+      "type": "Int"
+    }
+  }
+}

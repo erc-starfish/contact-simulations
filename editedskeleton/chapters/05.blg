@@ -1,0 +1,5 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is '05.blg'
+[70] biber:340> INFO - === Wed Nov 19, 2025, 12:14:27
+[82] Utils.pm:399> ERROR - 05.bcf is malformed, last biblatex run probably failed. Deleted 05.bbl
+[83] Biber.pm:135> INFO - ERRORS: 1

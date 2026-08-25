@@ -1,0 +1,20 @@
+{
+  "parfile": "parameters/onerun.json",
+  "sysinfo": {
+    "cpu_model": "13th Gen Intel(R) Core(TM) i5-13600KF",
+    "julia_version": "1.11.4",
+    "CPU_NAME": "alderlake",
+    "total_memory": 128634,
+    "MACHINE": "x86_64-linux-gnu",
+    "hostname": "n100",
+    "CPU_THREADS": 20
+  },
+  "metafile": "../meta/onerun_meta.json",
+  "outfile": "../output/onerun.csv",
+  "runtime": "10 seconds, 950 milliseconds",
+  "launched": "2026-08-24T21:40:54.009",
+  "nworkers": 1,
+  "description": "One simulation run with fixed parameter values, to demonstrate the workings of the model.",
+  "runtime_milliseconds": 10950,
+  "finished": "2026-08-24T21:41:04.959"
+}

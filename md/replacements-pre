@@ -1,0 +1,13 @@
+s/#eq-/#eq:/g
+s/@eq-/@eq:/g
+s/#tbl-/#tbl:/g
+s/@tbl:\([a-z-]\+\)/Table \\ref{tbl:\1}/g
+s/@tbl-\([a-z-]\+\)/Table \\ref{tbl:\1}/g
+s/#fig-/#fig:/g
+s/@fig-/Figure @fig:/g
+s/#sec-/#sec:/g
+s/@sec-/Section @sec:/g
+s/@ch:\([a-z-]\+\)/Chapter \\ref{ch:\1}/g
+s/\.\.\/plots/..\/..\/plots/g
+s/FIXME/\\textcolor{red}{\\textbf{FIXME}}/g
+s/REF/\\textcolor{blue}{\\textbf{REF}}/g

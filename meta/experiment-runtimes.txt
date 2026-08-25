@@ -1,0 +1,27 @@
+learning simulation:
+
+BenchmarkTools.Trial: 10000 samples with 1 evaluation per sample.
+ Range (min … max):  198.104 μs …  15.418 ms  ┊ GC (min … max):  0.00% … 98.45%
+ Time  (median):     212.903 μs               ┊ GC (median):     0.00%
+ Time  (mean ± σ):   304.577 μs ± 640.627 μs  ┊ GC (mean ± σ):  26.47% ± 12.27%
+
+  █ ▃▁                                                          ▁
+  █▄██▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▃▁▇█ █
+  198 μs        Histogram: log(frequency) by time        4.7 ms <
+
+ Memory estimate: 1.07 MiB, allocs estimate: 30006.
+
+
+
+sampling from Beta:
+
+BenchmarkTools.Trial: 10000 samples with 886 evaluations per sample.
+ Range (min … max):  129.239 ns …  14.912 μs  ┊ GC (min … max): 0.00% … 98.79%
+ Time  (median):     134.824 ns               ┊ GC (median):    0.00%
+ Time  (mean ± σ):   151.484 ns ± 278.889 ns  ┊ GC (mean ± σ):  5.16% ±  3.07%
+
+     ▂█▇▂                                                        
+  ▁▂▅████▇▄▃▃▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▂▁▁▁▁▁▁▁▁▂▃▄▆▆▆▅▄▄▄▄▃▃▃▃▃▃▃▂▂▂ ▂
+  129 ns           Histogram: frequency by time          164 ns <
+
+ Memory estimate: 144 bytes, allocs estimate: 6.

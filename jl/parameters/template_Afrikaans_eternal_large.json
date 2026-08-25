@@ -1,0 +1,105 @@
+{
+  "meta" : {
+    "description" : "Afrikaans sweep with optimized demographic parameters, eternal, large, for heatmap",
+    "outfile" : "../output/sweep_Afrikaans_eternal_large.csv",
+    "metafile" : "../meta/sweep_Afrikaans_eternal_large_meta.json"
+  },
+  "parameters" : {
+    "seed" : {
+      "type" : "Int",
+      "min" : 1,
+      "max" : 5,
+      "len" : 5
+    },
+    "acquire_language" : {
+      "type" : "Bool",
+      "val" : true
+    },
+    "a1" : {
+      "type" : "Float64",
+      "val" : 1.0
+    },
+    "a2" : {
+      "type" : "Float64",
+      "val" : 1.0
+    },
+    "γ" : {
+      "type" : "Float64",
+      "val" : 0.005
+    },
+    "d" : {
+      "type" : "Float64",
+      "modifier" : "log10",
+      "min" : 0.001,
+      "max" : 100.0,
+      "len" : 15
+    },
+    "aspectratio" : {
+      "type" : "Float64",
+      "modifier" : "log10",
+      "min" : 0.01,
+      "max" : 100.0,
+      "len" : 15
+    },
+    "dim" : {
+      "type" : "Int",
+      "val" : 5000
+    },
+    "catchment" : {
+      "type" : "Int",
+      "val" : 10
+    },
+    "birthrate" : {
+      "type" : "Float64",
+      "val" : 0.01
+    },
+    "sigma" : {
+      "type" : "Float64",
+      "val" : 0.7
+    },
+    "min_importtime" : {
+      "type" : "Int",
+      "val" : 500
+    },
+    "importperiod" : {
+      "type" : "Int",
+      "val" : 4000
+    },
+    "immig_shape" : {
+      "type" : "Float64",
+      "val" : 6.0
+    },
+    "immig_scale" : {
+      "type" : "Float64",
+      "val" : 5.0
+    },
+    "friend_cap" : {
+      "type" : "Int",
+      "val" : 50
+    },
+    "n_seed" : {
+      "type" : "Int",
+      "val" : 100
+    },
+    "weibull_shape" : {
+      "type" : "Float64",
+      "val" : 10.0
+    },
+    "weibull_scale" : {
+      "type" : "Float64",
+      "val" : 1000.0
+    },
+    "carcap" : {
+      "type" : "Int",
+      "val" : 1000
+    },
+    "iter" : {
+      "type" : "Int",
+      "val" : 373
+    },
+    "when" : {
+      "type" : "Int",
+      "val" : 373
+    }
+  }
+}

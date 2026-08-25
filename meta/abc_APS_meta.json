@@ -1,0 +1,25 @@
+{
+  "facc": 0.11274509803921569,
+  "sysinfo": {
+    "cpu_model": "13th Gen Intel(R) Core(TM) i5-13600KF",
+    "julia_version": "1.11.4",
+    "CPU_NAME": "alderlake",
+    "total_memory": 128634,
+    "MACHINE": "x86_64-linux-gnu",
+    "hostname": "n100",
+    "CPU_THREADS": 20
+  },
+  "epsilon": 1022.75,
+  "runtime": "4 hours, 26 minutes, 25 seconds, 52 milliseconds",
+  "pars": {
+    "facc_min": 0.15,
+    "alpha": 0.95,
+    "epsilon": 1000,
+    "nparticles": 100,
+    "nsims_max": 100000
+  },
+  "launched": "2026-08-24T21:42:12.707",
+  "finished": "2026-08-25T02:08:37.759",
+  "dataset": "APS",
+  "runtime_milliseconds": 15985052
+}
