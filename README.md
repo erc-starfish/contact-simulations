@@ -1,4 +1,4 @@
-# bookchapter
+# contact-simulations
 
 Data and code for chapter 5 of the book *Sociolinguistic typology and responsive features in syntactic history* (eds. Walkden et al.).
 
@@ -12,7 +12,7 @@ To install required packages, launch Julia REPL inside the `jl` folder. In pkg m
 
 ## Instructions
 
-The code is broken down into two parts. The first part is computationally intensive and can be expected to take 1--2 days to execute. The second part produces the plots and tables and typesets the manuscript, and is consequently much faster.
+The code is broken down into two parts. The first part is computationally intensive and can be expected to take 1-2 days to execute. The second part produces the plots and tables and typesets the manuscript, and is consequently much faster.
 
 ### Part 1 (intensive)
 
@@ -24,7 +24,7 @@ Part 1 output is saved in the `output` folder. This is .gitignored by default as
 
 ### Part 2
 
-Part 2 is orchestrated by the default makefile `Makefile`. To run everything, simply type `make`. Plots will appear in `plots`, tables in `tables`, manuscript in `editedskeleton/chapters`. The typeset PDF will appear as `chapter05.pdf`. Citations may or may not work, for mysterious reasons – anyway, they will work in the overleaf project.
+Part 2 is orchestrated by the default makefile `Makefile`. To run everything, simply type `make`. Plots will appear in `plots` (copied in `editedskeleton/figures`), tables in `tables`, manuscript in `editedskeleton/chapters`. The typeset PDF will appear as `chapter05.pdf`. Citations may or may not work, for mysterious reasons, and random glitches also seem to appear in the PDF, again for mysterious reasons. However, once the sources are incorporated into the overleaf project (see below), everything works as intended.
 
 
 ## A note on manuscript sources
