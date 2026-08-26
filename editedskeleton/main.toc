@@ -12,9 +12,9 @@
 \contentsline {section}{\numberline {8}Conclusion}{33}{section.1.8}%
 \contentsline {section}{Appendix A: Population dynamics}{34}{section*.28}%
 \contentsline {section}{Appendix B: Parameter estimation}{36}{section*.29}%
-\contentsline {section}{Acknowledgements}{37}{section*.31}%
-\contentsline {chapter}{Index}{38}{section*.32}%
-\contentsline {section}{Name index}{38}{section*.32}%
-\contentsline {section}{Language index}{39}{section*.33}%
-\contentsline {section}{Subject index}{39}{section*.34}%
+\contentsline {section}{Acknowledgements}{37}{section*.32}%
+\contentsline {chapter}{Index}{38}{section*.33}%
+\contentsline {section}{Name index}{38}{section*.33}%
+\contentsline {section}{Language index}{39}{section*.34}%
+\contentsline {section}{Subject index}{39}{section*.35}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

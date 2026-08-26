@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.8.24)  25 AUG 2026 18:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.8.24)  26 AUG 2026 11:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -610,13 +610,14 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count303
 \l__pdf_internal_box=\box65
 )
-(./lattice.aux)
+(../plots/lattice.aux)
 \openout1 = `lattice.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 11.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
  11.
- (/usr/share/texlive/texmf-dist/tex/latex/newtx/omlntxmi.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
 LaTeX Font Info:    ... okay on input line 11.
@@ -711,7 +712,7 @@ File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (../plots/lattice.aux) ) 
 Here is how much of TeX's memory you used:
  16745 strings out of 477975
- 315457 string characters out of 5839281
+ 315473 string characters out of 5839281
  1857330 words of memory out of 5000000
  36591 multiletter control sequences out of 15000+600000
  527229 words of font info for 62 fonts, out of 8000000 for 9000

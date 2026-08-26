@@ -422,6 +422,21 @@ $\mae(\vec{\pi}) = 1022.75$; for Afrikaans, the eventual value was
 $\mae(\vec{\pi}) = 3405.13$.
 
 
+\section*{Abbreviations}
+
+\begin{tabularx}{.45\textwidth}{lQ}
+ABC & Approximate Bayesian Computation \\
+APS & Afro-Peruvian Spanish \\
+DE & Differential Evolution \\
+\end{tabularx}
+\begin{tabularx}{.45\textwidth}{lQ}
+L1 & First language \\
+L2 & Second language \\
+MAE & Mean Absolute Error \\
+SMC & Sequential Monte Carlo
+\end{tabularx}
+
+
 # Acknowledgements {-}
 
 The work presented here received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no. 851423). I am grateful to Frederik Hartmann, Gemma Hunter McCarley, Raquel Montero, Molly Rolf and George Walkden for their many helpful comments; any remaining errors are, naturally, my sole responsibility.

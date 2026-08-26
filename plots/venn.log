@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.8.24)  25 AUG 2026 18:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.8.24)  26 AUG 2026 11:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -610,7 +610,7 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count303
 \l__pdf_internal_box=\box65
 )
-(./venn.aux)
+(../plots/venn.aux)
 \openout1 = `venn.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 10.
@@ -633,7 +633,6 @@ LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 10.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
 10.
-
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
@@ -709,7 +708,7 @@ File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (../plots/venn.aux) ) 
 Here is how much of TeX's memory you used:
  16719 strings out of 477975
- 314706 string characters out of 5839281
+ 314722 string characters out of 5839281
  1853330 words of memory out of 5000000
  36562 multiletter control sequences out of 15000+600000
  525856 words of font info for 60 fonts, out of 8000000 for 9000
